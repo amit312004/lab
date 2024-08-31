@@ -1,0 +1,114 @@
+/* modal.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-card {
+    width: 50%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 10px; /* Adjust border radius */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal-titlebox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal-title {
+    font-size: 24px; /* Adjust font size */
+    font-weight: 600;
+    color: rgba(113, 9, 9, 0.909);
+}
+
+.x-btn {
+    font-size: 24px; /* Adjust font size */
+    font-weight: 600;
+    color: rgba(113, 9, 9, 0.909);
+    cursor: pointer;
+}
+
+.x-btn:hover {
+    background-color: #b3a7a9;
+}
+
+.modal-body {
+    width: 100%;
+}
+
+.inputRowModal {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 20px; /* Adjust gap */
+    margin-bottom: 20px;
+}
+
+.inputBox {
+    flex: 1 1 45%; /* Adjust size */
+    display: flex;
+    flex-direction: column;
+}
+
+.input-label {
+    font-size: 14px; /* Adjust font size */
+    color: rgba(113, 9, 9, 0.909);
+}
+
+.input-modal {
+    border: 1px solid rgba(113, 9, 9, 0.909);
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 14px; /* Adjust font size */
+}
+
+.input-modal::placeholder {
+    color: rgba(113, 9, 9, 0.909);
+}
+
+.input-modal:focus {
+    outline: none;
+}
+
+.btnDivModal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust gap */
+    margin-top: 20px;
+}
+
+.submit-modal {
+    width: 100px;
+    height: 40px; /* Adjust height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 14px; /* Adjust font size */
+}
+
+.submit-modal:hover {
+    background-color: #ef2c2c;
+    color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}

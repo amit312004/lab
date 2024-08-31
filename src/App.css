@@ -1,0 +1,21 @@
+/* src/App.css */
+
+.App {
+    text-align: center;
+  }
+  
+  .mod {
+    margin: 20px;
+  }
+  
+  .container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
